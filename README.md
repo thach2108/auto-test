@@ -1,5 +1,6 @@
-# Required node v10.19.0
+
 # https://github.com/thach2108/auto-test
+# Required node v10.19.0
 # Follow this link https://nodejs.org/en/ to install nodejs
 
 # Step 1:
