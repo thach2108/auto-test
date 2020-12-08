@@ -49,6 +49,7 @@ yarn test
 # If it is not work. You may run 
 
 webdriver-manager clean
+#
 webdriver-manager update
 
 # then return for step 4
