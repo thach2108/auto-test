@@ -4,7 +4,7 @@ describe("Mgmt vulnerabilities:", function() {
     await browser.get(`${domain}vulnerabilities`);
 
     let url = element(By.css(`[formcontrolname="url"]`));
-    let form = element(By.css("form"));
+    let form = element(By.css("form2"));
     url.sendKeys("socnhi");
     form.submit();
 

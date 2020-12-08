@@ -30,8 +30,8 @@ describe("Login:", function() {
     let pass = element(By.css("#Password"));
     let login = element(By.css(`[name="button"]`));
 
-    user.sendKeys("hantttest02+101@gmail.com");
-    pass.sendKeys("Ha@123456");
+    user.sendKeys("admin");
+    pass.sendKeys("Abc@1234");
     login.click();
   });
 

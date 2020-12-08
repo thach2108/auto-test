@@ -7,7 +7,7 @@ browser.driver.controlFlow().execute = function() {
   var args = arguments;
 
   // queue <x> ms wait
-  const x = 1000;
+  const x = 100;
   origFn.call(browser.driver.controlFlow(), function() {
     return protractor.promise.delayed(x);
   });
@@ -30,8 +30,8 @@ describe("Login:", function() {
     let pass = element(By.css("#Password"));
     let login = element(By.css(`[name="button"]`));
 
-    user.sendKeys("hantttest02+101@gmail.com");
-    pass.sendKeys("Ha@123456");
+    user.sendKeys("admin");
+    pass.sendKeys("Abc@1234");
     login.click();
   });
 
@@ -46,7 +46,7 @@ describe("Mgmt vulnerabilities:", function() {
     await browser.get(`${domain}vulnerabilities`);
 
     let url = element(By.css(`[formcontrolname="url"]`));
-    let form = element(By.css("form"));
+    let form = element(By.css("form2"));
     url.sendKeys("socnhi");
     form.submit();
 
