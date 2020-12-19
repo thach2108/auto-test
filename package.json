@@ -6,7 +6,7 @@
     "start": "gulp start",
     "build": "gulp concat",
     "prettier": "prettier -c --write \"**/*\"",
-    "driver": "webdriver-manager start",
+    "driver": "webdriver-manager update & webdriver-manager start",
     "test": "protractor conf.js"
   },
   "husky": {
@@ -23,6 +23,8 @@
   },
   "dependencies": {
     "husky": "^4.2.3",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "protractor": "^7.0.0",
+    "webdriver-manager": "^12.1.7"
   }
 }
