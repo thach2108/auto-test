@@ -1,5 +1,5 @@
 // config domain
-const domain = "http://localhost:8080/";
+const domain = "https://dev.admin.vadar.vn/";
 
 // setting driver
 var origFn = browser.driver.controlFlow().execute;
@@ -36,6 +36,6 @@ describe("Login:", function() {
   });
 
   it("identity", function() {
-    expect(browser.getTitle()).toEqual("SafeSAI");
+    expect(browser.getTitle()).toEqual("Vsec Vadar");
   });
 });

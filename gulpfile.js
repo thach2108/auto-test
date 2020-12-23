@@ -6,7 +6,11 @@ var gulp = require("gulp"),
 
 var paths = {
   webroot: "./",
-  appJs: ["./src/*.js", "./src/features/*.js"]
+  appJs: [
+    "./src/*.js",
+    "./src/demo/*.js"
+    // "./src/features/*.js",
+  ]
 };
 
 //-----------CONCAT-----------------
