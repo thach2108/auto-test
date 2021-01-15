@@ -14,6 +14,8 @@ yarn
 
 # If you cannot install. Follow this link https://yarnpkg.com/cli/install to install yarn
 
+## After instal package, you just have to run from step 2
+
 # Step 2: run app
 
 npm run start
